@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --bg-color: #191f36;
+  --snd-bg-color: #262b40;
+  --text-color: #fff;
+  --main-color: #59b2f4;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 20vh;
+  padding: 3rem 9% 2rem;
+  font-size: 1.65rem;
+}
+
+section div h2 {
+  color: var(--main-color);
+}
+
+.my-world {
+  background-color: var(--snd-bg-color);
+}
+.Academic {
+  background-color: var(--snd-bg-color);
+}
+.roots-in-bareilly {
+  background-color: var(--snd-bg-color);
+}
+.my-strength {
+  background-color: var(--snd-bg-color);
+}
+.lets-connect {
+  background-color: var(--snd-bg-color);
+}
+
+.my-world div h2,
+p {
+  margin-bottom: 1.2rem;
+}
+
+.journey div h2,
+h4,
+p {
+  margin-bottom: 1.2rem;
+}
+
+.Academic div h2,
+p,
+h4,
+ul {
+  margin-bottom: 1.2rem;
+}
+.professional-expertise div h2,
+h3,
+p {
+  margin-bottom: 1.2rem;
+}
+
+.personal-interests div h2,
+h4,
+p {
+  margin-bottom: 1.2rem;
+}
+.roots-in-bareilly div h2,
+p {
+  margin-bottom: 1.2rem;
+}
+
+.my-strength div h2,
+ul {
+  margin-bottom: 1.2rem;
+}
+
+.looking-forward div h2,
+p {
+  margin-bottom: 1.2rem;
+}
+
+.lets-connect div h2,
+p {
+  margin-bottom: 1.2rem;
+}
+header {
+  min-height: 15vh;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--bg-color);
+}
+header div p {
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+
+footer {
+  min-height: 10vh;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer,
+.btn {
+  margin-right: 1rem;
+}
+
+.btn {
+  padding: 1.4rem;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  border-radius: 1rem;
+}
+
+@media (max-width: 625px) {
+  footer {
+    min-height: 20vh;
+    flex-direction: column;
+    gap: 2.1rem;
+  }
+}
